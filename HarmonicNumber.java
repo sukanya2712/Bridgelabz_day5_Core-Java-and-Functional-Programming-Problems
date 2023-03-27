@@ -5,14 +5,7 @@ public class HarmonicNumber {
         Scanner scanner = new Scanner(System.in);
 
         int n;
-        do {
-            System.out.print("Enter a positive integer N: ");
-            while (!scanner.hasNextInt()) {
-                System.out.println("That's not a positive integer! Please try again.");
-                scanner.next();
-            }
-            n = scanner.nextInt();
-        } while (n <= 0);
+       
 
 
         double harmonic = 0;
